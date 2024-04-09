@@ -1,0 +1,295 @@
+@import url(assets/Martel_Sans.zip);
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(assets/bg.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: none;
+    background-size: max(100vw, 1200px);
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    padding: 0px 0px 80px 0px;
+
+}
+
+nav img {
+    width: 124px;
+    position: relative;
+    z-index: 10;
+    
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    height: calc(100%-62px);
+    display: flex;
+
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 0px 30px;
+    position: relative;
+    gap: 12px;
+
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.seperation {
+    height: 5px;
+    background-color: gray;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(241, 233, 233, 0.315);
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding:3px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.main input {
+    padding: 9px 35px;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: black;
+    margin: 4px;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 15px;
+}
+.first{
+    display: flex;
+
+    
+    justify-content: center;
+   align-items: center;
+    
+   max-width: 70vw;
+   margin: auto;
+   color: white;
+
+}
+@media screen and ( max-width:1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    
+}
+
+.secimg img{
+    width: 400px;
+    position: relative;
+    z-index: 10;
+   
+    
+}
+.secimg{
+    position: relative;
+   
+
+}
+.secimg video{
+    top: 50px;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    
+   
+}
+.first > div :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+}
+.first > div :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.first>div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 34px 0px;
+}
+.faq{
+    background: black;
+    
+}
+
+.faqbox{
+    display: flex;
+    color: white;
+    padding: 20px;
+    max-width: 55vw;
+    margin: 34px auto ;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: gray;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.faq h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin: 20px;
+    font-weight: 900;
+}
+.faqbox svg{
+    color: white;
+}
+.faqbox:hover{
+    background-color: rgb(78, 77, 77);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 40px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+    gap: 10px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 20px;
+    
+}
+footer span{
+    font-size: 16px;
+    font-weight: 400;
+}
+    
+    
+.footer a{
+    text-decoration: underline;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+@media screen and (max-width:1300px) {
+    .footer{
+        display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    color: white;
+
+    }
+    .hero> :nth-child(1) {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+    
+    }
+    
+    .hero> :nth-child(2) {
+        font-weight: 900;
+        font-size: 18px;
+        text-align: center;
+    
+    }
+    
+    .hero> :nth-child(3) {
+        font-weight: 400px;
+        font-size: 18px;
+        text-align: center;
+    
+    }
+    nav{max-width: 80vw;
+
+    }
+    .faq h2{
+        font-size: 32px;
+    }
+}
